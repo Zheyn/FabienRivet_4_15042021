@@ -325,6 +325,9 @@ a:hover {
 ul{
     color: black;
 }
+li{
+    padding-top: 10px;
+}
 
 .nav > li {
     float: left;
