@@ -17,7 +17,18 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
-
+figure{
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+}
+.change{
+    margin: auto;
+    font-size: 20px;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 5%;
+}
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -305,6 +316,8 @@ a:hover {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
+    width: 214px;
+    height: auto;
 }
 
 .navbar-brand img[src$=svg] {
