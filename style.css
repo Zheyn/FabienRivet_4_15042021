@@ -50,7 +50,6 @@ figcaption{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    position: relative;
 }
 
 .bloc .container {
@@ -105,7 +104,6 @@ figcaption{
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -461,6 +459,7 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    font-size: 20px;
 }
 
 .mg-lg {
@@ -534,22 +533,29 @@ button {
 }
 
 .scrollToTop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 40px;
     height: 40px;
+    border-radius: 5px;
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    opacity: 1;
     z-index: 500;
     transition: all .3s ease-in-out;
+    font-size: 25px;
+    text-decoration: none;
 }
 
 .scrollToTop span {
     margin-top: 6px;
+    color: rgb(0, 0, 0);
 }
 
 .showScrollTop {
-    font-size: 14px;
+    font-size: 25px;
     opacity: 1;
 }
 
@@ -802,6 +808,7 @@ h4 {
 
 .tc-white {
     color: #F3976C!important;
+    text-shadow: #00000091 1px 1px 3px;
 }
 
 .btn-atomic-tangerine {
