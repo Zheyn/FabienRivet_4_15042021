@@ -93,15 +93,7 @@ figcaption{
     background: top no-repeat;
 }
 
-.bloc-bg-texture::before {
-    content: "";
-    background-size: 2px 2px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
+
 
 .texture-paper::before {
     background-size: 280px 280px;
@@ -433,7 +425,9 @@ li{
 nav .caret {
     margin: 0 5px;
 }
-
+p{
+    letter-spacing: 0.5px;
+}
 .dropdown-menu .dropdown-menu {
     top: -8px;
     left: 100%;
@@ -528,10 +522,19 @@ button {
 }
 
 .form-control {
-    border-color: rgba(0, 0, 0, .1);
+    border-color: rgba(0, 0, 0, 0.733);
     box-shadow: none;
 }
-
+.formulaire_position{
+    width: 80%;
+    margin: auto;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10%;
+    padding: 10px;
+    background-color: #F3976C;
+    border-radius: 10px;
+}
 .scrollToTop {
     display: flex;
     justify-content: center;
@@ -767,7 +770,10 @@ h4 {
 .white {
     color: #000000!important;
 }
-
+.footertext{
+    margin-top: 60px;
+    font-weight: 550;
+}
 .portfolio-thumb {
     margin-bottom: 24px;
     width: 100%;
@@ -785,7 +791,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(37, 37, 35, 0.918);
     padding: 40px 40px 40px 40px;
 }
 
@@ -807,10 +813,11 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
-    text-shadow: #00000091 1px 1px 3px;
+    color: #d1d1d1!important;
 }
-
+.textshadow{
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.616);
+}
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #000000!important;
